@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link href="https://fonts.googleapis.com/css2?family=Sora&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+	<script src="js/chart.min.js"></script>
+	<script src="https://cdn.jsdelivr.net/npm/@tensorflow/tfjs@latest"></script>
+
+    <title>Hand Written Digit Classifer</title>
+</head>
+<body>
+    <div class="content">
+        <p>Digit Recognition Using Convolution Neural Network</p>
+        <p>Built by Hekmat</p>
+        <div id="canvas_box">
+        </div>
+        <div class="buttons">
+            <button class="predict" onclick="predictDigit()">Predict</button>
+            <button class="clear" onclick="clearCanvas()">Clear</button>
+        </div>
+        <div class="results">
+            <p>Prediction</p>
+        </div>
+    </div>
+    <script src="../scripts/script.js"></script>
+</body>
+</html>
